@@ -7,12 +7,12 @@ function edit(obj, style){
 
 // Attach onchange event to the language switch.
 var langSwitch = document.getElementById('lang-switch');
-langSwitch.addEventListener('change', function() {
+/*langSwitch.addEventListener('change', function() {
   var lang = langSwitch.value;
 
   edit(document.querySelectorAll('[lang]'), 'none');
   edit(document.querySelectorAll('[lang="'+lang+'"]'), 'block');
-});
+});*/
 
 
 //function to change automatiquely the language
@@ -29,3 +29,19 @@ changeLanguage('fr');
 
 let fr=true;
 let en=false;
+function toggleLanguage(){
+  console.log(fr + ' ' + en);
+  if(fr){
+    changeLanguage('en');
+    en=true;
+    fr=false;
+    return;
+  }
+  if(en){
+    console.log(fr + ' ' + en);
+    changeLanguage('fr');
+    en=false;
+    fr=true;
+    return;
+  }
+}
