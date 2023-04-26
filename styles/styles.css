@@ -333,16 +333,18 @@ section {
   margin-left: 1rem;
   position: relative;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress span[type] {
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
-  width: 60%;
 }
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
+
   width: 87%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
