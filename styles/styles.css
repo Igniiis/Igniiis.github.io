@@ -315,10 +315,21 @@ section {
   display: flex;
   flex-direction: column;
 }
+.about-stats .progress-bars .progress-bar:hover .prog-subtitle {
+  /* max-height: inherit; */
+  opacity: 1;
+}
+.about-stats .progress-bars .progress-bar .prog-subtitle {
+  font-style: italic;
+  opacity: 0;
+  transition: opacity 600ms ease;
+}
+
 .about-stats .progress-bars .progress-bar .prog-title {
   text-transform: uppercase;
   font-weight: 500;
 }
+
 .about-stats .progress-bars .progress-bar .progress-con {
   display: flex;
   align-items: center;
@@ -344,7 +355,6 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
-
   width: 87%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
@@ -360,7 +370,13 @@ section {
   width: 83%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 64%;
+  width: 77%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .twig {
+  width: 73%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .ejs {
+  width: 75%;
 }
 
 .stat-title {
