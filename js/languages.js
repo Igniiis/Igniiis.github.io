@@ -46,12 +46,13 @@ function toggleLanguage(){
 
 //check language of browser :
 var userLang = navigator.language || navigator.userLanguage;
-if (userLang == 'fr') {
+console.log(userLang);
+if (userLang == 'fr' || userLang == 'fr-FR') {
   //if french detected, we prompt french language
   changeLanguage('fr');
   fr = true;
   en = false;
-}else if(userLang =='en'){
+}else if(userLang =='en' || userLang =='en-EN'){
   //if english detected, we prompt english language
   changeLanguage('en');
   fr = false;
