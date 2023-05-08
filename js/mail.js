@@ -1,7 +1,4 @@
 
 function toMail(){
-    document.getElementById('sendButtonForm').click();
+    document.getElementById('formContactButtonId').click();
 }
-
-
-// IDClick(id);event.preventDefault();
