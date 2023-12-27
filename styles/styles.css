@@ -366,7 +366,7 @@ section {
   width: 82%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
-  width: 75%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .agile {
   width: 83%;
@@ -379,6 +379,9 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .ejs {
   width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .adobe {
+  width: 63%;
 }
 
 .stat-title {
